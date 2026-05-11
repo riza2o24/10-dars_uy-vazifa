@@ -15,7 +15,9 @@ function Banner() {
             <img className="w-[300px] rounded-l-[16px]" src={item.image} alt="image" />
 
             <div className="p-[30px]">
-
+                <h2></h2>
+                <p></p>
+                <p></p>
             </div>
         </div>
       ))}</div>
