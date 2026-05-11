@@ -15,8 +15,10 @@ function Banner() {
             <img className="w-[250px] h-[248px] rounded-l-[16px]" src={item.image} alt="image" />
 
             <div className="p-[30px]">
+                <span className="flex items-center gap-[5px]">{item.tags.map(t =>(
+                  <p>{t}</p>
+                ) )}</span>
                 <h2>{item.name}</h2>
-                <span>{item.tags}</span>
                 <p className="font-[] text-[12px]">{item.instructions.slice(0,2).map(hook => (
                   <p>{hook}</p>
                 ))}</p>
