@@ -16,6 +16,7 @@ function Banner() {
 
             <div className="p-[30px]">
                 <h2>{item.name}</h2>
+                <span>{item.tags}</span>
                 <p className="font-[] text-[12px]">{item.instructions.slice(0,2).map(hook => (
                   <p>{hook}</p>
                 ))}</p>
