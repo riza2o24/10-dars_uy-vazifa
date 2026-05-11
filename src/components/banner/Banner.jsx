@@ -9,14 +9,14 @@ function Banner() {
         .then(data => setUser(data.recipes))
     }, [])
   return (
-    <div className="m-auto w-[1980px] max-[1980px]">
+    <div className="m-auto w-[2800px] mt-[40px]">
       <div className=" grid grid-cols-4 gap-[40px]">{user.map(item => (
-        <div className="flex items-center justify-between" key={item.id}>
-            <div>
+        <div className="flex items-center justify-between w-[670px] h-[300px] rounded-[16px] border-2 border-[#c9c9c9]" key={item.id}>
+            <img className="w-[300px] rounded-l-[16px]" src={item.image} alt="image" />
+
+            <div className="p-[30px]">
 
             </div>
-
-            <img src={item.image} alt="image" />
         </div>
       ))}</div>
     </div>
