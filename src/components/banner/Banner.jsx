@@ -24,7 +24,7 @@ function Banner() {
                 <p className="font-[400] text-[12px]">{item.instructions.slice(0,2).map(hook => (
                   <p>{hook.slice(0,66)}</p>
                 ))}</p>
-                <button className="text-[8px] mt-[10px] font-[600] text-[#f00] px-[15px] py-[6px] border-2 border-[#f00]">Save</button>
+                <button className="text-[18px] mt-[10px] font-[600] text-[#f00] px-[15px] py-[6px] border-2 border-[#f00]">Save</button>
             </div>
         </div>
       ))}</div>
