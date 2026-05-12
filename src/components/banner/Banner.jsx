@@ -6,7 +6,7 @@ function Banner() {
     useEffect(() => {
         fetch("https://dummyjson.com/recipes")
         .then(rej => rej.json())
-        .then(data => setUser(data.recis))
+        .then(data => setUser(data.recipes))
         
     }, [])
   return (
